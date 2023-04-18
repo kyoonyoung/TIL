@@ -1,2 +1,2 @@
-# TIL
+# 😎 TIL
 Today i learned!
