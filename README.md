@@ -1,2 +1,2 @@
-# 😎 TIL
-Today i learned
+# TIL
+Today i learned!
