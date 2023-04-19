@@ -140,3 +140,57 @@ fah = ((9/5)* cel) + 32
 print(f"섭씨온도 : {cel}")
 print(f"화씨온도 : {fah:.2f}")
 ```
+
+
+
+## 퀴즈(2023.04.19)
+
+# 
+
+ workspace/function/quiz_17 디렉토리에 BMI_calculator.py 라는 파일을 생성하세요. 이 파일에서 다음과 같은 기능을 가진 파이썬 코드를 작성해주세요.
+
+<br/>
+
+사용자로부터 몸무게(kg)와 키(cm)를 입력받아, BMI(체질량지수)를 계산하여 출력하는 함수 calculate_BMI()를 작성하세요.
+ 
+<br/>
+
+몸무게를 입력하세요(kg): 60
+
+키를 입력하세요(cm): 170
+
+BMI: 20.76
+
+<br/> 
+
+ 몸무게를 입력하세요(kg): 75
+
+키를 입력하세요(cm): 180
+
+BMI: 23.15
+
+ <br/>
+
+몸무게를 입력하세요(kg): 50
+
+키를 입력하세요(cm): 160
+
+BMI: 19.53
+
+<br/>
+
+```python
+def get_BMI(kg, cm):
+    return  (kg / (cm**2))
+
+kg = float(input("몸무게를 입력하세요(kg): "))
+
+cm = float(input("키를 입력하세요(cm): ")) / 100
+
+calculate_BMI = get_BMI(kg, cm)
+print(f"BMI: {calculate_BMI:.2f}")
+
+
+#bmi지수 몸무게/키*키
+```
+
