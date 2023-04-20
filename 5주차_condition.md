@@ -97,6 +97,8 @@ else:                 # myage 가 30 이상일 때
 <br/>
 
 ## 논리 키워드 사용: and, or, not  
+- and : 하나라도 False면 False
+- or : 하나라도 True면 True
 
 #
 

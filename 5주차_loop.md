@@ -384,26 +384,47 @@ for char in sentence:
     print("REVERSE #2", reverse_sen)
 ```
 
->REVERSE #1  
->REVERSE #2 I 
->REVERSE #1 I
->REVERSE #2  I
->REVERSE #1  I
->REVERSE #2 l I
->REVERSE #1 l I
->REVERSE #2 ol I
->REVERSE #1 ol I
->REVERSE #2 vol I
->REVERSE #1 vol I
->REVERSE #2 evol I
->REVERSE #1 evol I
->REVERSE #2  evol I
->REVERSE #1  evol I
->REVERSE #2 y evol I
->REVERSE #1 y evol I
->REVERSE #2 oy evol I
->REVERSE #1 oy evol I
->REVERSE #2 uoy evol I
+REVERSE #1  
+
+REVERSE #2 I 
+
+REVERSE #1 I
+
+REVERSE #2  I
+
+REVERSE #1  I
+
+REVERSE #2 l I
+
+REVERSE #1 l I
+
+REVERSE #2 ol I
+
+REVERSE #1 ol I
+
+REVERSE #2 vol I
+
+REVERSE #1 vol I
+
+REVERSE #2 evol I
+
+REVERSE #1 evol I
+
+REVERSE #2  evol I
+
+REVERSE #1  evol I
+
+REVERSE #2 y evol I
+
+REVERSE #1 y evol I
+
+REVERSE #2 oy evol I
+
+REVERSE #1 oy evol I
+
+REVERSE #2 uoy evol I
+
+<br/>
 
 # [연습] 숫자 찾기 게임
 ## 1~100 임의의 숫자를 맞추시오
@@ -415,12 +436,12 @@ true_value = random.randint(1,100)
 input_value = 99999 #임의의 값
 print("숫자를 맞춰보세요 (1~100)")
 
-while true_value != input_value: # 사용자의 입력값이 true_value 클 때
+while true_value != input_value: #사용자의 입력값이 true_value 클 때
     input_value = int(input())
     
     if input_value > true_value:
         print("숫자가 너무 큽니다.")
-    elif input_value < true_value : # 사용자의 입 력값이 true_value 작을 때
+    elif input_value < true_value : # 사용자의 입력값이 true_value 작을 때
         print("숫자가 너무 작습니다.")
     else: 
         break
